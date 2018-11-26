@@ -8,13 +8,14 @@ import java.util.Arrays;
  * @Description: 希尔排序-插入排序
  */
 public class ShellSort {
+
     public static void main(String[] args) {
         int[] arr = {22,1, 4, 2, 3, 1, 5, 6, 4, 7, 2, 8, 10, 11};
         sort(arr);
         System.out.println(Arrays.toString(arr));
     }
 
-    private static void sort(int[] arr) {
+    public static void sort(int[] arr) {
         int d=arr.length;
         int n=arr.length;
         int shellNum=2;
@@ -37,4 +38,5 @@ public class ShellSort {
             }
         }
     }
+
 }

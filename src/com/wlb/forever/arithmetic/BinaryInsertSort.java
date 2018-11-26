@@ -14,7 +14,7 @@ public class BinaryInsertSort {
         System.out.println(Arrays.toString(arr));
     }
 
-    private static void sort(int[] arr) {
+    public static void sort(int[] arr) {
         int n = arr.length;
         for (int i = 1; i < n; i++) {
             int temp = arr[i];

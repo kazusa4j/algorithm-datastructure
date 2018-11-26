@@ -14,14 +14,14 @@ public class RedBlackTree {
      *节点
      */
     public static class Node {
-        public static final String RED = "red";
-        public static final String BLACK = "black";
+        private static final String RED = "red";
+        private static final String BLACK = "black";
 
-        public int value;
-        public String color;
-        public Node left;
-        public Node right;
-        public Node parent;
+        private int value;
+        private String color;
+        private Node left;
+        private Node right;
+        private Node parent;
 
 
         public Node(int value) {

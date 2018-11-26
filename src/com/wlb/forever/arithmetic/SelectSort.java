@@ -15,7 +15,7 @@ public class SelectSort {
         System.out.println(Arrays.toString(arr));
     }
 
-    private static void sort(int[] arr) {
+    public static void sort(int[] arr) {
         int n = arr.length;
         for (int i = 0; i < n; i++) {
             int tmp = i;

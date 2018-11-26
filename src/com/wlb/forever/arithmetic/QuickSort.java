@@ -14,9 +14,8 @@ public class QuickSort {
         System.out.println(Arrays.toString(arr));
     }
 
-    private static void sort(int[] arr) {
+    public static void sort(int[] arr) {
         sort(arr, 0, arr.length - 1);
-
     }
 
     private static void sort(int[] arr, int start, int end) {

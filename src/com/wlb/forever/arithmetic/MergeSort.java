@@ -52,7 +52,6 @@ public class MergeSort {
         while (start <= end) {
             arr[start++] = tmpArr[t++];
         }
-
     }
 
 }

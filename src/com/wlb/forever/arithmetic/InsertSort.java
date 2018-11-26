@@ -8,15 +8,14 @@ import java.util.Arrays;
  * @Description: 插入排序-插入排序
  */
 public class InsertSort {
-    public static void main(String[] args) {
 
-        int[] arr = {4, 2, 3, 1, 5,3};
+    public static void main(String[] args) {
+        int[] arr = {4, 2, 3, 1, 5, 3};
         sort(arr);
         System.out.println(Arrays.toString(arr));
     }
 
-    private static void sort(int[] arr) {
-
+    public static void sort(int[] arr) {
         int n = arr.length;
         for (int i = 1; i < n; i++) {
             int j = i;
