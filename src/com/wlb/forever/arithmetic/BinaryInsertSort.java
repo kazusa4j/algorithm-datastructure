@@ -9,7 +9,7 @@ import java.util.Arrays;
  */
 public class BinaryInsertSort {
     public static void main(String[] args) {
-        int[] arr = {1,4, 2, 3, 1, 5, 6, 4, 7,2, 8, 10, 11, 22};
+        int[] arr = {1,4, 2, 3, 1, -3,5, 6, 4, 7,2, 8, 10, 11, 22};
         sort(arr);
         System.out.println(Arrays.toString(arr));
     }

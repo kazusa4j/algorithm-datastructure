@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class InsertSort {
 
     public static void main(String[] args) {
-        int[] arr = {4, 2, 3, 1, 5, 3};
+        int[] arr = {4, 2, 3, 1, -1,5, 3};
         sort(arr);
         System.out.println(Arrays.toString(arr));
     }
